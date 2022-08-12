@@ -1,0 +1,412 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #4A4A48;
+
+  font-family: Garamond, sans-serif; 
+  font-size: 20px;  
+  line-height: 1.5em;
+  color: #F1F2EB; 
+}
+
+header {
+  padding-top: 50px;   
+  padding-left: 30%;
+  padding-right: 30%;
+  margin: 1px;         
+}
+
+main { 
+  padding-top: 25px;      
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+ 
+  margin-left: 10%;
+  margin-right: 10%;          
+  
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: Verdana, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #A4C2A5;
+  line-height: 60px;
+  letter-spacing: 12px;
+ 
+  margin: 2px;
+}
+
+h2 {
+  font-family: Verdana, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #A4C2A5;
+  line-height: 1.3em;
+  letter-spacing: 3px;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: Verdana, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #4A4A48;
+  line-height: 1.3em;
+  
+  padding-bottom: 15px;
+}
+
+.dep{
+  font-family: sans-serif;
+  font-size: medium;
+  border-radius: 30%;
+  color: #e3f0ff;
+  background-color: #566246;
+  margin-top:20;
+  align-items: center;
+  padding:24px;
+}
+.anxi{
+  font-family: sans-serif;
+  border-radius: 30%;
+  color: #e3f0ff;
+  background-color: #566246;
+  margin-top:20;
+  align-items: center;
+  padding-top:25px;
+  padding-bottom: 26px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.gen{
+  font-family: sans-serif;
+  font-size: medium;
+  border-radius: 30%;
+  color: #e3f0ff;
+  background-color: #566246;
+  margin-top:20;
+  align-items: center;
+  padding:25px;
+  font-weight: bold;
+}
+.ED{
+  font-family: sans-serif;
+  font-size: medium;
+  border-radius: 30%;
+  color: #e3f0ff;
+  background-color: #566246;
+  margin-top:20;
+  align-items: center;
+  padding:24px;
+}
+.PTSD{
+  font-family: sans-serif;
+  border-radius: 30%;
+  color: #e3f0ff;
+  background-color: #566246;
+  margin-top:20;
+  align-items: center;
+  padding-top:25px;
+  padding-bottom: 26px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+/*center the depression and anxiety buttons */
+.depAnxiButtons{
+  text-align: center;
+  
+}
+/*center the distract and chat buttons */
+.disChatButtons{
+  text-align: center;
+}
+
+.breathing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ghibli{
+  color:#e3f0ff;
+}
+.breathe{
+  color:#e3f0ff;
+
+}
+.centerpls{
+  text-align: center;
+}
+.distract{
+  text-align: center;
+  margin-top:20;
+}
+.distraction{
+  font-family: sans-serif;
+  font-size: medium;
+  border-radius: 30%;
+  color: #e3f0ff;
+  background-color: #566246;
+  margin-top:20;
+  align-items: center;
+  padding:24px;
+}
+
+
+.subtitle{
+  text-align: center;
+  font-size: 25px;
+  
+  padding-top: 20px;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+a {
+  color: #A4C2A5;
+  text-decoration: none;
+}
+  
+
+/* STYLE NAV BAR */
+ul.nav-bar {
+  list-style-type: none;        
+  overflow: hidden;
+  
+  background-color: #A4C2A5;
+  border-style: solid;
+  border-color: #4A4A48;
+}
+
+li.nav-item {
+  display: inline;       
+  float: right;           
+  padding: 5px;
+}
+
+li.nav-item a {   
+  font-size: 15px;
+  color: #4A4A48;
+  
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav-item a:hover {
+  background-color: #4A4A48;
+  color: #D8DAD3;
+}
+
+
+/* STYLE IMAGES - Includes Make it responsive Key Feature */
+img {
+  display: block;      
+  width: 90%;          
+  height: auto;        
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-style: solid;
+  border-color: #fdd946;
+  border-width: 8px;
+  border-radius: 5px;
+}
+
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {           
+  flex-basis: 100%;    
+  margin: 1%;          
+}
+
+/* STYLE BUTTONS */
+#factBtn {
+  background: #4A4A48;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: #F1F2EB;
+  font-size: 1em;
+}
+
+#scriptBtn {
+  background: #4A4A48;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: #F1F2EB;
+  font-size: 1em;
+}
+
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  background: #D8DAD3;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: Helvetica, sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #4A4A48;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #A4C2A5;
+
+}
+
+/* STYLE PERSONALIZE IT KEY FEATURE  */
+
+.scriptQues {
+  background: #D8DAD3;
+  border-radius: 10px;
+
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  color: #4A4A48;
+}
+
+.scriptItem{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#scriptReturned {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  color: #F1F2EB;
+}
+
+/* STYLE MISC */
+.resources {
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.resources li {
+  margin-bottom: 15px;
+}
+
+/* MEDIA QUERIES  - Includes Make it responsive Key Feature */
+@media screen and (max-width: 850px) { /* Breakpoint 1 */
+  .flex-container {
+    flex-wrap: wrap; 
+  }
+
+  header {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main { 
+  margin-left: 5%;
+  margin-right: 5%;          
+  }
+  
+  .genFact, #fact {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+
+  #fact {
+  font-size: 1.5em;
+  }
+
+}
+
+.footer-text{
+  font-family:sans-serif;
+  background-color: #F1F2EB;
+  color:#002201;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.hover_link:hover{
+	background-color:#F1F2EB;
+	color:#566246;
+}
+#hotlines{
+  font-size:40px;
+  font-weight:bold;
+  color:#002201;
+}
+footer{
+	padding:30px;
+  background-color:#F1F2EB;
+}
